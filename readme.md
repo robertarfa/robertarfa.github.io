@@ -11,16 +11,19 @@
 <h2 align="left">Conecte-se comigo</h2>
 
 <a href="https://www.linkedin.com/in/robertarfa/" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" alt="LinkedIn Profile">
+  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" alt="LinkedIn Profile" width="100" height="30">
 </a>
 <a href="https://github.com/robertarfa" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile">
+  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile" width="100" height="30">
 </a>
 <a href="https://wa.me/+5511965549452" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
+  <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" width="100" height="30">
 </a>
 <a href="mailto:roberta_rfa@hotmail.com" target="_blank" rel="noopener noreferrer">
-  <img src="https://img.shields.io/badge/-Email-000?style=for-the-badge&logo=microsoft-outlook&logoColor=dc00ff" alt="Email">
+  <img src="https://img.shields.io/badge/-Email-000?style=for-the-badge&logo=microsoft-outlook&logoColor=dc00ff" alt="Email" width="100" height="30">
+</a>
+<a href="https://medium.com/@robertaaguilar" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/Medium-%23000000.svg?logo=medium&logoColor=white" alt="Medium Profile" width="100" height="30">
 </a>
 
 <h2 align="left"> Projetos 🚀</h2>
