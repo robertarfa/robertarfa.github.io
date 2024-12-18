@@ -6,7 +6,18 @@
 
 <h2 align="left">Conecte-se comigo</h2>
 
-[![Linkedin](https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge)](https://www.linkedin.com/in/robertarfa/)[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/robertarfa)[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/+5511965549452)[![E-mail](https://img.shields.io/badge/-Email-000?style=for-the-badge&logo=microsoft-outlook&logoColor=dc00ff)](mailto:roberta_rfa@hotmail.com)
+<a href="https://www.linkedin.com/in/robertarfa/" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" alt="LinkedIn Profile">
+</a>
+<a href="https://github.com/robertarfa" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile">
+</a>
+<a href="https://wa.me/+5511965549452" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
+</a>
+<a href="mailto:roberta_rfa@hotmail.com" target="_blank" rel="noopener noreferrer">
+  <img src="https://img.shields.io/badge/-Email-000?style=for-the-badge&logo=microsoft-outlook&logoColor=dc00ff" alt="Email">
+</a>
 
 <h2 align="left"> Habilidades 🛠️</h2>
 
