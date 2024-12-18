@@ -1,4 +1,8 @@
+###
+
 <h1 align="left">Roberta Ferreira Aguilar</h1>
+
+###
 
 <p align="left">Minha paixão é transformar números em insights acionáveis. </p>
 <p align="left">Com experiência em análise de dados e visualização, posso ajudar sua empresa a tomar decisões mais inteligentes baseadas em evidências. Vamos transformar seus dados em resultados.</p>
@@ -18,6 +22,18 @@
 <a href="mailto:roberta_rfa@hotmail.com" target="_blank" rel="noopener noreferrer">
   <img src="https://img.shields.io/badge/-Email-000?style=for-the-badge&logo=microsoft-outlook&logoColor=dc00ff" alt="Email">
 </a>
+
+<h2 align="left"> Projetos 🚀</h2>
+
+Aqui estão alguns dos meus projetos mais recentes:
+
+- <a href="https://github.com/robertarfa/Projetos/tree/main/Finance" target="_blank" rel="noopener noreferrer">Análise do Mercado Financeiro</a>
+
+- <a href="https://github.com/robertarfa/Projetos/tree/main/PipelinePython" target="_blank" rel="noopener noreferrer">Pipeline com Python</a>
+
+- <a href="https://github.com/robertarfa/Projetos/tree/main/AzureBoard" target="_blank" rel="noopener noreferrer">Dashboard com Azure Boards (WIP)</a>
+
+Para mais detalhes sobre estes e outros projetos, entre em contato!
 
 <h2 align="left"> Habilidades 🛠️</h2>
 
@@ -41,18 +57,6 @@
 - 🐍 Python
 - 💻 C#
 - ⚛️ React (Javascript)
-
-<h2 align="left"> Projetos 🚀</h2>
-
-Aqui estão alguns dos meus projetos mais recentes:
-
-- [Análise do Mercado Financeiro](https://github.com/robertarfa/Projetos/tree/main/Finance)
-
-- [Pipeline com Python](https://github.com/robertarfa/Projetos/tree/main/PipelinePython)
-
-- [Dashboard com Azure Boards (WIP)](https://github.com/robertarfa/Projetos/tree/main/AzureBoard)
-
-Para mais detalhes sobre estes e outros projetos, entre em contato!
 
 <!-- ## Certificados 🏆
 
