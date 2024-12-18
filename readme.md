@@ -34,7 +34,7 @@ Aqui estão alguns dos meus projetos mais recentes:
 
 - <a href="https://github.com/robertarfa/Projetos/tree/main/PipelinePython" target="_blank" rel="noopener noreferrer">Pipeline com Python</a>
 
-- <a href="https://github.com/robertarfa/Projetos/tree/main/AzureBoard" target="_blank" rel="noopener noreferrer">Dashboard com Azure Boards (WIP)</a>
+- <a href="https://github.com/robertarfa/Projetos/tree/main/AzureBoard" target="_blank" rel="noopener noreferrer">Dashboard com Azure Boards</a>
 
 Para mais detalhes sobre estes e outros projetos, entre em contato!
 
