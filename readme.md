@@ -32,9 +32,9 @@ Aqui estão alguns dos meus projetos mais recentes:
 
 - <a href="https://github.com/robertarfa/Projetos/tree/main/Finance" target="_blank" rel="noopener noreferrer">Análise do Mercado Financeiro com dashboard do PowerBi</a>
 
-- <a href="https://github.com/robertarfa/reiki" target="_blank" rel="noopener noreferrer">Pipeline com Python - Extraindo informações do Microsoft Forms (WIP)</a>
-
 - <a href="https://github.com/robertarfa/Projetos/tree/main/AzureBoard" target="_blank" rel="noopener noreferrer">PowerBi Dashboard com dados do Azure Boards</a>
+
+- <a href="https://github.com/robertarfa/reiki" target="_blank" rel="noopener noreferrer">Pipeline com Python - Extraindo informações do Microsoft Forms (WIP)</a>
 
 Para mais detalhes sobre estes e outros projetos, entre em contato!
 
