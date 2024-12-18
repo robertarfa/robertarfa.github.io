@@ -1,22 +1,12 @@
-###
-
 <h1 align="left">Roberta Ferreira Aguilar</h1>
-
-###
 
 <p align="left">Minha paixão é transformar números em insights acionáveis. </p>
 <p align="left">Com experiência em análise de dados e visualização, posso ajudar sua empresa a tomar decisões mais inteligentes baseadas em evidências. Vamos transformar seus dados em resultados.</p>
 <p align="left">Também tenho experiência como desenvolvedor FullStack.</p>
 
-###
-
 <h2 align="left">Conecte-se comigo</h2>
 
-###
-
 [![Linkedin](https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge)](https://www.linkedin.com/in/robertarfa/)[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/robertarfa)[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/+5511965549452)[![E-mail](https://img.shields.io/badge/-Email-000?style=for-the-badge&logo=microsoft-outlook&logoColor=dc00ff)](mailto:roberta_rfa@hotmail.com)
-
-###
 
 <h2 align="left"> Habilidades 🛠️</h2>
 
@@ -27,8 +17,6 @@
 - ⚙️ ETL (Extract, Transform, Load)
 - ☁️ Cloud (AWS - EC2, S3, IAM)
 
-###
-
 <h2 align="left">Ferramentas 🧰</h2>
 
 - 📊 Visual Studio
@@ -37,15 +25,11 @@
 - 🐳 Docker
 - 👑 Streamlit
 
-###
-
 <h2 align="left">Linguagens de Programação 📊</h2>
 
 - 🐍 Python
 - 💻 C#
 - ⚛️ React (Javascript)
-
-###
 
 <h2 align="left"> Projetos 🚀</h2>
 
@@ -58,8 +42,6 @@ Aqui estão alguns dos meus projetos mais recentes:
 - [Dashboard com Azure Boards (WIP)](https://github.com/robertarfa/Projetos/tree/main/AzureBoard)
 
 Para mais detalhes sobre estes e outros projetos, entre em contato!
-
-###
 
 <!-- ## Certificados 🏆
 
