@@ -6,6 +6,7 @@
 
 <p align="left">Minha paixão é transformar números em insights acionáveis. </p>
 <p align="left">Com experiência em análise de dados e visualização, posso ajudar sua empresa a tomar decisões mais inteligentes baseadas em evidências. Vamos transformar seus dados em resultados.</p>
+<p align="left">Construindo conhecimento em pipelines, para garantir a consistência dos dados.</p>
 <p align="left">Também tenho experiência como desenvolvedor FullStack.</p>
 
 <h2 align="left">Conecte-se comigo</h2>
