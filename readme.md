@@ -44,7 +44,7 @@ Para mais detalhes sobre estes e outros projetos, entre em contato!
 - 🐍 Python para Análise de Dados
 - 📑 SQL e Bancos de Dados
 - ⚙️ ETL (Extract, Transform, Load)
-- ☁️ Cloud (AWS - EC2, S3, IAM)
+- ☁️ Cloud (AWS - EC2, S3, IAM, VPC, Relational DataBase, DynamoDB, EFS)
 
 <h2 align="left">Ferramentas 🧰</h2>
 
