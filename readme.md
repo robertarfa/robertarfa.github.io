@@ -2,10 +2,9 @@
 
 <h1 align="left">Roberta Ferreira Aguilar</h1>
 
-###
-
 <p align="left">Minha paixão é transformar números em insights acionáveis. </p>
 <p align="left">Com experiência em análise de dados e visualização, posso ajudar sua empresa a tomar decisões mais inteligentes baseadas em evidências. Vamos transformar seus dados em resultados.</p>
+<p align="left">Construindo conhecimento em pipelines, para garantir a consistência dos dados.</p>
 <p align="left">Também tenho experiência como desenvolvedor FullStack.</p>
 
 <h2 align="left">Conecte-se comigo</h2>
@@ -52,7 +51,7 @@ Para mais detalhes sobre estes e outros projetos, entre em contato!
 - 🐍 Python para Análise de Dados
 - 📑 SQL e Bancos de Dados
 - ⚙️ ETL (Extract, Transform, Load)
-- ☁️ Cloud (AWS - EC2, S3, IAM)
+- ☁️ Cloud (AWS - EC2, S3, IAM, VPC, Relational DataBase, DynamoDB, EFS)
 
 <h2 align="left">Ferramentas 🧰</h2>
 
