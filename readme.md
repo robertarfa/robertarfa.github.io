@@ -39,7 +39,7 @@ Para mais detalhes sobre estes e outros projetos, entre em contato!
 
 <h2 align="left"> Badges 🛡️</h2>
 
-<a href="https://www.credly.com/badges/470103cb-6b8d-4d48-9b5a-a6d57a9a6547/public_url">
+<a href="https://www.credly.com/badges/470103cb-6b8d-4d48-9b5a-a6d57a9a6547/public_url" target="_blank" rel="noopener noreferrer">
   <img src="aws-cloud-quest-cloud-practitioner.png" width="100" alt="AWS Cloud Quest Cloud Practitioner Badge">
 </a>
 <!-- [![alt text](aws-cloud-quest-cloud-practitioner-2.png)](https://www.credly.com/badges/470103cb-6b8d-4d48-9b5a-a6d57a9a6547/public_url) -->
