@@ -1,10 +1,10 @@
-###
+<!-- ###
 
 <h1 align="left">Roberta Ferreira Aguilar</h1>
 
-<p align="left">Minha paixão é a programação, abrangendo desde o desenvolvimento de sistemas fullstack até a transformação de dados brutos em insights acionáveis.</p> 
-<p align="left">Com experiência em desenvolvimento fullstack e análise de dados, posso ajudar sua empresa a criar soluções completas e tomar decisões mais inteligentes baseadas em evidências.</p> 
-<p align="left">Minha expertise abrange tanto o frontend quanto o backend, permitindo a construção de aplicações completas, além de extrair valor dos seus dados para impulsionar resultados tangíveis.</p> 
+<p align="left">Minha paixão é a programação, abrangendo desde o desenvolvimento de sistemas fullstack até a transformação de dados brutos em insights acionáveis.</p>
+<p align="left">Com experiência em desenvolvimento fullstack e análise de dados, posso ajudar sua empresa a criar soluções completas e tomar decisões mais inteligentes baseadas em evidências.</p>
+<p align="left">Minha expertise abrange tanto o frontend quanto o backend, permitindo a construção de aplicações completas, além de extrair valor dos seus dados para impulsionar resultados tangíveis.</p>
 <p align="left">Estou constantemente aprimorando meus conhecimentos em pipelines de dados, garantindo a consistência e qualidade das informações desde a coleta até a visualização. </p>
 <p align="left">Minha abordagem fullstack na análise de dados permite uma compreensão holística do ciclo de vida dos dados, resultando em soluções mais eficientes e insights mais precisos para sua empresa.</p>
 
@@ -96,4 +96,4 @@ Estou sempre buscando aprender e me atualizar na área de análise de dados.
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=robertarfa&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=dracula&hide_border=false" height="150" alt="languages graph"  />
 </div>
 
-### -->
+### --> -->
