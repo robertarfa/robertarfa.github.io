@@ -1,0 +1,76 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "Who we are",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Translate today, shake hands tomorrow",
+    "subtitle": "Unlock your potential and redefine your limits with us. Our translators tailor translations for your business, ensuring your voice crosses the borders.",
+    "cta": "Request now"
+  },
+  "services": {
+    "title": "Our Services",
+    "subtitle": "Complete translation solutions",
+    "services": [
+      {
+        "icon": "📄",
+        "title": "Document Translation",
+        "description": "Certified and technical translation of official documents, contracts and certificates."
+      },
+      {
+        "icon": "🌐",
+        "title": "Website Localization",
+        "description": "Web content adaptation for different languages and cultures while maintaining brand essence."
+      },
+      {
+        "icon": "🎯",
+        "title": "Technical Translation",
+        "description": "Specialists in manuals, technical specifications and specialized documentation."
+      },
+      {
+        "icon": "✍️",
+        "title": "Proofreading and Editing",
+        "description": "Thorough review of translated texts ensuring quality and accuracy."
+      },
+      {
+        "icon": "🎤",
+        "title": "Interpretation",
+        "description": "Simultaneous and consecutive interpretation services for events and meetings."
+      },
+      {
+        "icon": "📱",
+        "title": "App Localization",
+        "description": "Translation and adaptation of mobile applications for international markets."
+      }
+    ]
+  },
+  "about": {
+    "title": "About Us",
+    "description": "We are a company specialized in quality translations, with over 10 years of market experience. Our team of native translators ensures precision and naturalness in every project.",
+    "features": [
+      "Certified native translators",
+      "Over 50 languages available",
+      "Fast and punctual delivery",
+      "Confidentiality guarantee",
+      "24/7 support"
+    ]
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Request a free quote",
+    "form": {
+      "name": "Name",
+      "email": "Email",
+      "message": "Message",
+      "submit": "Send Message"
+    }
+  },
+  "footer": {
+    "description": "Experts in professional translations for companies and individuals.",
+    "quickLinks": "Quick Links",
+    "contact": "Contact",
+    "rights": "All rights reserved."
+  }
+}

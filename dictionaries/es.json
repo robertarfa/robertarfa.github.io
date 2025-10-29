@@ -1,0 +1,76 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Servicios",
+    "about": "Quiénes somos",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Traduce hoy, estrecha manos mañana",
+    "subtitle": "Desbloquea tu potencial y redefine tus límites con nosotros. Nuestros traductores adaptan las traducciones para tu negocio, asegurando que tu voz cruce las fronteras.",
+    "cta": "Solicita ahora"
+  },
+  "services": {
+    "title": "Nuestros Servicios",
+    "subtitle": "Soluciones completas en traducción",
+    "services": [
+      {
+        "icon": "📄",
+        "title": "Traducción de Documentos",
+        "description": "Traducción jurada y técnica de documentos oficiales, contratos y certificados."
+      },
+      {
+        "icon": "🌐",
+        "title": "Localización de Sitios Web",
+        "description": "Adaptación de contenido web para diferentes idiomas y culturas manteniendo la esencia de la marca."
+      },
+      {
+        "icon": "🎯",
+        "title": "Traducción Técnica",
+        "description": "Especialistas en manuales, especificaciones técnicas y documentación especializada."
+      },
+      {
+        "icon": "✍️",
+        "title": "Revisión y Edición",
+        "description": "Revisión minuciosa de textos traducidos garantizando calidad y precisión."
+      },
+      {
+        "icon": "🎤",
+        "title": "Interpretación",
+        "description": "Servicios de interpretación simultánea y consecutiva para eventos y reuniones."
+      },
+      {
+        "icon": "📱",
+        "title": "Localización de Apps",
+        "description": "Traducción y adaptación de aplicaciones móviles para mercados internacionales."
+      }
+    ]
+  },
+  "about": {
+    "title": "Sobre Nosotros",
+    "description": "Somos una empresa especializada en traducciones de calidad, con más de 10 años de experiencia en el mercado. Nuestro equipo de traductores nativos garantiza precisión y naturalidad en cada proyecto.",
+    "features": [
+      "Traductores nativos certificados",
+      "Más de 50 idiomas disponibles",
+      "Entrega rápida y puntual",
+      "Garantía de confidencialidad",
+      "Soporte 24/7"
+    ]
+  },
+  "contact": {
+    "title": "Contáctenos",
+    "subtitle": "Solicite un presupuesto sin compromiso",
+    "form": {
+      "name": "Nombre",
+      "email": "Correo electrónico",
+      "message": "Mensaje",
+      "submit": "Enviar Mensaje"
+    }
+  },
+  "footer": {
+    "description": "Expertos en traducciones profesionales para empresas y personas físicas.",
+    "quickLinks": "Enlaces Rápidos",
+    "contact": "Contacto",
+    "rights": "Todos los derechos reservados."
+  }
+}
