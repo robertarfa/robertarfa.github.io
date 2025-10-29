@@ -1,0 +1,76 @@
+# Nome do workflow que aparecerá na aba "Actions" do GitHub
+name: Deploy Next.js (Estático) para GitHub Pages
+
+# Define quando o workflow deve rodar
+on:
+  # Roda automaticamente em todo push para a branch 'main'
+  push:
+    branches: [main]
+  # Permite que você rode este workflow manualmente pela interface do GitHub
+  workflow_dispatch:
+
+# Define as permissões necessárias para o workflow.
+# 'pages: write' é para poder publicar no GitHub Pages.
+# 'id-token: write' é para a autenticação OIDC.
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Permite apenas uma execução concorrente deste workflow por vez.
+# Se um novo push for feito, ele cancela o build anterior.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  # Job único de 'deploy' (você pode separar em 'build' e 'deploy' se preferir)
+  deploy:
+    # Define o ambiente de deploy (necessário para o GitHub Pages)
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }} # URL de saída
+
+    # Usa a última versão do Ubuntu
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Baixa o código do seu repositório
+      - name: Checkout do código
+        uses: actions/checkout@v4
+
+      # 2. Configura o ambiente Node.js
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20.x # Use uma versão LTS (Long Term Support)
+          cache: npm # Ativa o cache para 'npm'
+
+      # 3. Configura o GitHub Pages
+      - name: Configurar GitHub Pages
+        uses: actions/configure-pages@v5
+        # NOTA: O 'basePath' NÃO é configurado aqui.
+        # Ele deve ser configurado em 'next.config.mjs'.
+
+      # 4. Instala as dependências do projeto
+      # 'npm ci' é mais rápido e seguro para CI/CD do que 'npm install'
+      - name: Instalar dependências
+        run: npm ci
+
+      # 5. Roda o build estático
+      # O 'npm run build' vai ler seu 'next.config.mjs'
+      # e gerar a pasta 'out/' por causa do 'output: "export"'
+      - name: Buildar o site estático
+        run: npm run build
+
+      # 6. Carrega os arquivos da pasta 'out/' como um artefato do Pages
+      - name: Upload do artefato
+        uses: actions/upload-pages-artifact@v3
+        with:
+          # O caminho para a pasta gerada pelo 'next build'
+          path: ./out
+
+      # 7. Faz o deploy do artefato no GitHub Pages
+      - name: Deploy no GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
