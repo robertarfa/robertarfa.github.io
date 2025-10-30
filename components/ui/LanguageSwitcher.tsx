@@ -51,12 +51,16 @@ export default function LanguageSwitcher() {
   return (
     <div ref={dropdownRef} className='position-relative'>
       <button
-        onClick={() => setIsOpen(!isOpen)}
+        type='button'
+        onClick={(e) => {
+          e.preventDefault();
+          setIsOpen(!isOpen);
+        }}
         className='btn btn-outline-secondary d-flex align-items-center gap-2'
         aria-label='Selecionar idioma'
+        aria-expanded={isOpen}
       >
         <span className='fs-5'>{languageFlags[currentLang]}</span>
-        {/* <span className='fw-medium'>{languageNames[currentLang]}</span> */}
         <svg
           className={`transition-transform ${isOpen ? 'rotate-180' : ''}`}
           width='16'
