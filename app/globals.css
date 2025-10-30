@@ -1,5 +1,4 @@
-/* Import Bootstrap CSS */
-@import 'bootstrap/dist/css/bootstrap.min.css';
+/* Custom styles */
 
 html,
 body {
@@ -12,7 +11,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* Custom styles */
+/* Custom color styles */
 .bg-primary-orange {
   background-color: #f97316 !important;
 }
