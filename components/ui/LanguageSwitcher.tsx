@@ -1,6 +1,6 @@
 'use client';
 
-import { usePathname, useRouter } from 'next/navigation';
+import { usePathname } from 'next/navigation';
 import { i18n, type Locale } from '@/i18n-config';
 import { useState, useRef, useEffect } from 'react';
 
@@ -18,12 +18,12 @@ const languageFlags: Record<Locale, string> = {
 
 export default function LanguageSwitcher() {
   const pathname = usePathname();
-  const router = useRouter();
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
 
   // Extrai o idioma atual da URL
-  const currentLang = pathname.split('/')[1] as Locale;
+  const segments = pathname.split('/').filter(Boolean);
+  const currentLang = (segments[0] || i18n.defaultLocale) as Locale;
 
   // Fecha o dropdown ao clicar fora
   useEffect(() => {
@@ -39,29 +39,13 @@ export default function LanguageSwitcher() {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
-  const switchLanguage = (locale: Locale) => {
-    // Pega o basePath do Next.js se existir
-    const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
-    const segments = pathname.split('/').filter(Boolean);
-    
-    // Remove o basePath se existir nos segments
-    if (basePath && segments[0] === basePath.replace('/', '')) {
-      segments.shift();
+  // Função para gerar o link do idioma
+  const getLanguageLink = (locale: Locale): string => {
+    if (segments.length <= 1) {
+      return `/${locale}/`;
     }
-    
-    // Substitui o idioma (primeiro segmento após basePath)
-    if (segments.length > 0) {
-      segments[0] = locale;
-    } else {
-      segments.unshift(locale);
-    }
-    
-    // Reconstrói o caminho com basePath
-    const newPath = basePath + '/' + segments.join('/');
-    
-    // Usa window.location para navegação mais confiável
-    window.location.href = newPath;
-    setIsOpen(false);
+    const pathAfterLang = segments.slice(1).join('/');
+    return `/${locale}/${pathAfterLang}`;
   };
 
   return (
@@ -96,15 +80,19 @@ export default function LanguageSwitcher() {
           style={{ width: '200px', zIndex: 1050 }}
         >
           {i18n.locales.map((locale) => (
-            <button
+            <a
               key={locale}
-              onClick={() => switchLanguage(locale)}
-              className={`w-100 d-flex align-items-center gap-3 px-3 py-2 border-0 text-start ${
+              href={getLanguageLink(locale)}
+              className={`w-100 d-flex align-items-center gap-3 px-3 py-2 border-0 text-start text-decoration-none ${
                 currentLang === locale
                   ? 'bg-primary text-white fw-semibold'
                   : 'bg-white text-dark'
               }`}
-              style={{ transition: 'background-color 0.2s' }}
+              style={{
+                transition: 'background-color 0.2s',
+                display: 'flex',
+                cursor: 'pointer',
+              }}
               onMouseEnter={(e) => {
                 if (currentLang !== locale) {
                   e.currentTarget.classList.add('bg-light');
@@ -118,7 +106,7 @@ export default function LanguageSwitcher() {
             >
               <span className='fs-5'>{languageFlags[locale]}</span>
               <span>{languageNames[locale]}</span>
-            </button>
+            </a>
           ))}
         </div>
       )}
