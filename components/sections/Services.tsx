@@ -1,5 +1,3 @@
-import Container from '@/components/ui/Container';
-
 interface Service {
   icon: string;
   title: string;
@@ -16,34 +14,33 @@ interface ServicesProps {
 
 export default function Services({ content }: ServicesProps) {
   return (
-    <section id="services" className="py-20 bg-white">
-      <Container>
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+    <section id='services' className='py-5 bg-light'>
+      <div className='container py-5'>
+        <div className='text-center mb-5'>
+          <h2 className='fw-bold text-dark mb-4' style={{ fontSize: '2.5rem' }}>
             {content.title}
           </h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+          <p
+            className='text-dark mx-auto'
+            style={{ maxWidth: '800px', fontSize: '1.1rem', lineHeight: '1.8' }}
+          >
             {content.subtitle}
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className='row g-4 mt-4'>
           {content.services.map((service, index) => (
-            <div
-              key={index}
-              className="p-8 rounded-xl border-2 border-gray-200 hover:border-blue-500 hover:shadow-lg transition-all duration-300 bg-white"
-            >
-              <div className="text-4xl mb-4">{service.icon}</div>
-              <h3 className="text-xl font-bold text-gray-900 mb-3">
-                {service.title}
-              </h3>
-              <p className="text-gray-600 leading-relaxed">
-                {service.description}
-              </p>
+            <div key={index} className='col-md-4'>
+              <div className='text-center px-3'>
+                <h3 className='h5 fw-bold text-dark mb-3'>{service.title}</h3>
+                <p className='text-dark' style={{ lineHeight: '1.8' }}>
+                  {service.description}
+                </p>
+              </div>
             </div>
           ))}
         </div>
-      </Container>
+      </div>
     </section>
   );
 }

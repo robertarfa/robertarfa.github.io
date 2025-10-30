@@ -1,4 +1,3 @@
-import Container from '@/components/ui/Container';
 import Logo from '@/components/ui/Logo';
 import { Locale } from '@/i18n-config';
 
@@ -22,40 +21,50 @@ interface FooterProps {
 
 export default function Footer({ lang, dictionary }: FooterProps) {
   return (
-    <footer className="bg-gray-900 text-white py-12">
-      <Container>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+    <footer className='bg-dark text-white py-5'>
+      <div className='container'>
+        <div className='row g-4 mb-4'>
           {/* Logo e Descrição */}
-          <div>
-            <div className="mb-4">
-              <Logo className="text-white" />
+          <div className='col-md-4'>
+            <div className='mb-3'>
+              <Logo className='text-white' />
             </div>
-            <p className="text-gray-400 leading-relaxed">
-              {dictionary.footer.description}
-            </p>
+            <p className='text-white-50'>{dictionary.footer.description}</p>
           </div>
 
           {/* Links Rápidos */}
-          <div>
-            <h3 className="text-lg font-bold mb-4">{dictionary.footer.quickLinks}</h3>
-            <ul className="space-y-2">
-              <li>
-                <a href={`/${lang}`} className="text-gray-400 hover:text-white transition-colors">
+          <div className='col-md-4'>
+            <h3 className='h5 fw-bold mb-3'>{dictionary.footer.quickLinks}</h3>
+            <ul className='list-unstyled'>
+              <li className='mb-2'>
+                <a
+                  href={`/${lang}`}
+                  className='text-white-50 text-decoration-none hover-text-white'
+                >
                   {dictionary.nav.home}
                 </a>
               </li>
-              <li>
-                <a href={`/${lang}#services`} className="text-gray-400 hover:text-white transition-colors">
+              <li className='mb-2'>
+                <a
+                  href={`/${lang}#services`}
+                  className='text-white-50 text-decoration-none hover-text-white'
+                >
                   {dictionary.nav.services}
                 </a>
               </li>
-              <li>
-                <a href={`/${lang}#about`} className="text-gray-400 hover:text-white transition-colors">
+              <li className='mb-2'>
+                <a
+                  href={`/${lang}#about`}
+                  className='text-white-50 text-decoration-none hover-text-white'
+                >
                   {dictionary.nav.about}
                 </a>
               </li>
-              <li>
-                <a href={`/${lang}#contact`} className="text-gray-400 hover:text-white transition-colors">
+              <li className='mb-2'>
+                <a
+                  href={`/${lang}#contact`}
+                  className='text-white-50 text-decoration-none hover-text-white'
+                >
                   {dictionary.nav.contact}
                 </a>
               </li>
@@ -63,21 +72,24 @@ export default function Footer({ lang, dictionary }: FooterProps) {
           </div>
 
           {/* Contato */}
-          <div>
-            <h3 className="text-lg font-bold mb-4">{dictionary.footer.contact}</h3>
-            <ul className="space-y-2 text-gray-400">
-              <li className="flex items-center gap-2">
-                <span>📧</span>
-                <a href="mailto:contato@collabtranslation.com" className="hover:text-white transition-colors">
+          <div className='col-md-4'>
+            <h3 className='h5 fw-bold mb-3'>{dictionary.footer.contact}</h3>
+            <ul className='list-unstyled text-white-50'>
+              <li className='d-flex align-items-center mb-2'>
+                <span className='me-2'>📧</span>
+                <a
+                  href='mailto:contato@collabtranslation.com'
+                  className='text-white-50 text-decoration-none hover-text-white'
+                >
                   contato@collabtranslation.com
                 </a>
               </li>
-              <li className="flex items-center gap-2">
-                <span>📱</span>
+              <li className='d-flex align-items-center mb-2'>
+                <span className='me-2'>📱</span>
                 <span>+55 11 9999-9999</span>
               </li>
-              <li className="flex items-center gap-2">
-                <span>📍</span>
+              <li className='d-flex align-items-center mb-2'>
+                <span className='me-2'>📍</span>
                 <span>São Paulo, Brasil</span>
               </li>
             </ul>
@@ -85,10 +97,12 @@ export default function Footer({ lang, dictionary }: FooterProps) {
         </div>
 
         {/* Copyright */}
-        <div className="border-t border-gray-800 pt-8 text-center text-gray-400">
-          <p>© 2025 CollaBTranslation. {dictionary.footer.rights}</p>
+        <div className='border-top border-secondary pt-4 text-center text-white-50'>
+          <p className='mb-0'>
+            © 2025 CollaBTranslation. {dictionary.footer.rights}
+          </p>
         </div>
-      </Container>
+      </div>
     </footer>
   );
 }

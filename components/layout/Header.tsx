@@ -1,7 +1,7 @@
+'use client';
+
 import Logo from '@/components/ui/Logo';
-import Navigation from './Navigation';
 import LanguageSwitcher from '@/components/ui/LanguageSwitcher';
-import Container from '@/components/ui/Container';
 import { Locale } from '@/i18n-config';
 
 interface HeaderProps {
@@ -18,16 +18,27 @@ interface HeaderProps {
 
 export default function Header({ lang, dictionary }: HeaderProps) {
   return (
-    <header className="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm">
-      <Container>
-        <div className="flex items-center justify-between py-4">
+    <nav className='navbar navbar-light bg-white shadow-sm sticky-top'>
+      <div className='container'>
+        <div className='d-flex justify-content-between align-items-center w-100 py-2'>
           <Logo />
-          <div className="flex items-center gap-8">
-            <Navigation lang={lang} dictionary={dictionary} />
-            <LanguageSwitcher />
-          </div>
+
+          <ul className='navbar-nav d-flex flex-row gap-4 mb-0'>
+            <li className='nav-item'>
+              <a className='nav-link text-dark' href={`/${lang}`}>
+                {dictionary.nav.home}
+              </a>
+            </li>
+            <li className='nav-item'>
+              <a className='nav-link text-dark' href={`/${lang}#about`}>
+                {dictionary.nav.about}
+              </a>
+            </li>
+          </ul>
+
+          <LanguageSwitcher />
         </div>
-      </Container>
-    </header>
+      </div>
+    </nav>
   );
 }

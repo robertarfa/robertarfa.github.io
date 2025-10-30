@@ -1,6 +1,6 @@
 import { getDictionary } from '@/lib/dictionary';
 import { i18n, Locale } from '@/i18n-config';
-import Hero from '@/components/sections/Hero';
+import Index from '@/components/sections/Index';
 import Services from '@/components/sections/Services';
 import About from '@/components/sections/About';
 import Contact from '@/components/sections/Contact';
@@ -19,7 +19,7 @@ export default async function Home({
 
   return (
     <main>
-      <Hero content={dict.hero} />
+      <Index content={dict.hero} />
       <Services content={dict.services} />
       <About content={dict.about} />
       <Contact content={dict.contact} />

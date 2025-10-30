@@ -1,5 +1,3 @@
-import Container from '@/components/ui/Container';
-
 interface AboutProps {
   content: {
     title: string;
@@ -10,21 +8,23 @@ interface AboutProps {
 
 export default function About({ content }: AboutProps) {
   return (
-    <section id="about" className="py-20 bg-gray-50">
-      <Container>
-        <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div>
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
+    <section id="about" className="py-5 bg-light">
+      <div className="container py-5">
+        <div className="row g-5 align-items-center">
+          <div className="col-lg-6">
+            <h2 className="display-4 fw-bold text-dark mb-4">
               {content.title}
             </h2>
-            <p className="text-lg text-gray-600 mb-8 leading-relaxed">
+            <p className="lead text-secondary mb-4">
               {content.description}
             </p>
-            <ul className="space-y-4">
+            <ul className="list-unstyled">
               {content.features.map((feature, index) => (
-                <li key={index} className="flex items-start gap-3">
+                <li key={index} className="d-flex align-items-start mb-3">
                   <svg
-                    className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1"
+                    className="text-primary flex-shrink-0 me-3 mt-1"
+                    width="24"
+                    height="24"
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"
@@ -36,16 +36,24 @@ export default function About({ content }: AboutProps) {
                       d="M5 13l4 4L19 7"
                     />
                   </svg>
-                  <span className="text-gray-700">{feature}</span>
+                  <span className="text-dark">{feature}</span>
                 </li>
               ))}
             </ul>
           </div>
-          <div className="bg-gradient-to-br from-blue-100 to-blue-200 rounded-2xl h-96 flex items-center justify-center">
-            <span className="text-6xl">🌍</span>
+          <div className="col-lg-6">
+            <div 
+              className="bg-gradient rounded-3 d-flex align-items-center justify-content-center"
+              style={{ 
+                height: '400px',
+                background: 'linear-gradient(135deg, #cfe2ff 0%, #9ec5fe 100%)'
+              }}
+            >
+              <span style={{ fontSize: '6rem' }}>🌍</span>
+            </div>
           </div>
         </div>
-      </Container>
+      </div>
     </section>
   );
 }

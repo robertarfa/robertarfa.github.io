@@ -1,6 +1,3 @@
-import Button from '@/components/ui/Button';
-import Container from '@/components/ui/Container';
-
 interface ContactProps {
   content: {
     title: string;
@@ -16,64 +13,69 @@ interface ContactProps {
 
 export default function Contact({ content }: ContactProps) {
   return (
-    <section id="contact" className="py-20 bg-white">
-      <Container size="medium">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            {content.title}
-          </h2>
-          <p className="text-xl text-gray-600">
-            {content.subtitle}
-          </p>
+    <section id='contact' className='py-5 bg-white'>
+      <div className='container py-5'>
+        <div className='row justify-content-center'>
+          <div className='col-lg-8'>
+            <div className='text-center mb-5'>
+              <h2 className='display-4 fw-bold text-dark mb-3'>
+                {content.title}
+              </h2>
+              <p className='lead text-secondary'>{content.subtitle}</p>
+            </div>
+
+            <form>
+              <div className='mb-4'>
+                <label htmlFor='name' className='form-label fw-semibold'>
+                  {content.form.name}
+                </label>
+                <input
+                  type='text'
+                  className='form-control form-control-lg'
+                  id='name'
+                  name='name'
+                  required
+                />
+              </div>
+
+              <div className='mb-4'>
+                <label htmlFor='email' className='form-label fw-semibold'>
+                  {content.form.email}
+                </label>
+                <input
+                  type='email'
+                  className='form-control form-control-lg'
+                  id='email'
+                  name='email'
+                  required
+                />
+              </div>
+
+              <div className='mb-4'>
+                <label htmlFor='message' className='form-label fw-semibold'>
+                  {content.form.message}
+                </label>
+                <textarea
+                  className='form-control form-control-lg'
+                  id='message'
+                  name='message'
+                  rows={5}
+                  required
+                />
+              </div>
+
+              <div className='text-center'>
+                <button
+                  type='submit'
+                  className='btn btn-primary-orange btn-lg rounded-pill px-5 py-3'
+                >
+                  {content.form.submit}
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
-
-        <form className="max-w-2xl mx-auto space-y-6">
-          <div>
-            <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
-              {content.form.name}
-            </label>
-            <input
-              type="text"
-              id="name"
-              name="name"
-              className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:border-blue-500 focus:outline-none transition-colors"
-              required
-            />
-          </div>
-
-          <div>
-            <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
-              {content.form.email}
-            </label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:border-blue-500 focus:outline-none transition-colors"
-              required
-            />
-          </div>
-
-          <div>
-            <label htmlFor="message" className="block text-sm font-medium text-gray-700 mb-2">
-              {content.form.message}
-            </label>
-            <textarea
-              id="message"
-              name="message"
-              rows={5}
-              className="w-full px-4 py-3 border-2 border-gray-200 rounded-lg focus:border-blue-500 focus:outline-none transition-colors resize-none"
-              required
-            />
-          </div>
-
-          <div className="text-center">
-            <Button type="submit" size="large">
-              {content.form.submit}
-            </Button>
-          </div>
-        </form>
-      </Container>
+      </div>
     </section>
   );
 }

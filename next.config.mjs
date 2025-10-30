@@ -33,7 +33,7 @@ const nextConfig = {
 
   // O 'trailingSlash: true' é opcional, mas às vezes
   // ajuda a evitar problemas de rotas 404 entre /sobre e /sobre/
-  // trailingSlash: true,
+  trailingSlash: true,
 
   // Desativa a otimização de imagens do Next.js, pois ela
   // não funciona na exportação estática.
