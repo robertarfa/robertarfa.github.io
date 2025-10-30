@@ -41,9 +41,13 @@ export default function LanguageSwitcher() {
 
   // Função para gerar o link do idioma
   const getLanguageLink = (locale: Locale): string => {
+    // Para GitHub Pages de usuário (robertarfa.github.io)
+    // A URL é: https://robertarfa.github.io/pt/
     if (segments.length <= 1) {
       return `/${locale}/`;
     }
+
+    // Mantém o resto do caminho após o idioma
     const pathAfterLang = segments.slice(1).join('/');
     return `/${locale}/${pathAfterLang}`;
   };
