@@ -40,10 +40,27 @@ export default function LanguageSwitcher() {
   }, []);
 
   const switchLanguage = (locale: Locale) => {
-    const segments = pathname.split('/');
-    segments[1] = locale;
-    const newPath = segments.join('/');
-    router.push(newPath);
+    // Pega o basePath do Next.js se existir
+    const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+    const segments = pathname.split('/').filter(Boolean);
+    
+    // Remove o basePath se existir nos segments
+    if (basePath && segments[0] === basePath.replace('/', '')) {
+      segments.shift();
+    }
+    
+    // Substitui o idioma (primeiro segmento após basePath)
+    if (segments.length > 0) {
+      segments[0] = locale;
+    } else {
+      segments.unshift(locale);
+    }
+    
+    // Reconstrói o caminho com basePath
+    const newPath = basePath + '/' + segments.join('/');
+    
+    // Usa window.location para navegação mais confiável
+    window.location.href = newPath;
     setIsOpen(false);
   };
 
