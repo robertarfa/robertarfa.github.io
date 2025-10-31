@@ -1,0 +1,172 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Dienstleistungen",
+    "about": "Über uns",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "title": "Übersetzen Sie heute, geben Sie sich morgen die Hand",
+    "subtitle": "Entfalten Sie Ihr Potenzial und definieren Sie Ihre Grenzen mit uns neu. Unsere Übersetzer passen Übersetzungen an Ihr Unternehmen an und stellen sicher, dass Ihre Stimme Grenzen überschreitet.",
+    "cta": "Jetzt anfragen"
+  },
+  "edge": {
+    "title": "Entdecken Sie unseren einzigartigen Vorteil",
+    "subtitle": "Es ist unser Engagement, Ihre Stimme zu verbreiten. Wir liefern effektive und effiziente Übersetzungen und Lokalisierungen in Kombination mit professionellen Übersetzern, um Sie bei der Erreichung Ihrer Ziele zu unterstützen.",
+    "features": [
+      {
+        "title": "Personalisierte Übersetzungen",
+        "description": "Wir arbeiten mit einem hocherfahrenen Team professioneller Übersetzer zusammen, um maßgeschneiderte Übersetzungen zu erstellen, die das Wachstum und das globale Engagement Ihres Unternehmens fördern."
+      },
+      {
+        "title": "Modernste Lokalisierungen",
+        "description": "Mit Hilfe muttersprachlicher Lokalisierungsexperten liefern wir hochmoderne Anpassungen, die sich genau an die Sprache und kulturellen Nuancen Ihres Publikums anpassen."
+      },
+      {
+        "title": "Engagierter Kundenservice",
+        "description": "Wir bieten einen engagierten Kundenservice, der jederzeit verfügbar ist, um unseren Kunden bei der Bestimmung des besten Ansatzes zu helfen."
+      }
+    ]
+  },
+  "languages": {
+    "trusted": "WIR WERDEN VON KONSOLIDIERTEN INTERNATIONALEN UNTERNEHMEN VERTRAUT",
+    "subtitle": "LERNEN SIE UNSERE SPRACHDIENSTLEISTUNGEN KENNEN",
+    "title": "Muttersprachler, fließend in Quell- und Zielsprache",
+    "description": "Der Übersetzungsprozess beginnt mit der Dokumentenaufnahme, gefolgt von einer Inhaltsanalyse zur Festlegung der Ziele. Anschließend wählen wir die besten Fachleute aus, um die Lieferung hochwertiger Übersetzungen zu gewährleisten.",
+    "services": [
+      {
+        "number": "01.",
+        "title": "Allgemeine Übersetzungen",
+        "description": "Übersetzen bedeutet viel mehr als nur Text von einer Sprache in eine andere zu übertragen.",
+        "details": "Mehr Details anzeigen→"
+      },
+      {
+        "number": "02.",
+        "title": "Korrekturlesen",
+        "description": "Korrekturlesen ist der Prozess der Textintervention mit dem Ziel seiner Verbesserung.",
+        "details": "Mehr Details anzeigen→"
+      },
+      {
+        "number": "03.",
+        "title": "Lokalisierungen",
+        "description": "Die Lokalisierung von Inhalten ist entscheidend für die Bewerbung Ihrer Produkte weltweit.",
+        "details": "Mehr Details anzeigen→"
+      },
+      {
+        "number": "04.",
+        "title": "Beglaubigte Übersetzungen",
+        "description": "Beglaubigte Übersetzungen haben rechtliche Gültigkeit und sind in offiziellen Szenarien wie Verträgen, Zertifikaten und Einwanderung erforderlich.",
+        "details": "Mehr Details anzeigen→"
+      },
+      {
+        "number": "05.",
+        "title": "Transkriptionen",
+        "description": "Audio- oder Videotranskription bedeutet, das Gesprochene in Text umzuwandeln und Aufnahmen in geschriebenen Text zu konvertieren.",
+        "details": "Mehr Details anzeigen→"
+      },
+      {
+        "number": "06.",
+        "title": "Untertitelung & Captioning",
+        "description": "Untertitelung und Captioning sind wesentliche Bestandteile moderner Medien und ermöglichen es Publikum, mit Inhalten in verschiedenen Sprachen und Barrierefreiheitsbedürfnissen zu interagieren.",
+        "details": "Mehr Details anzeigen→"
+      }
+    ],
+    "humanTouch": "Wir priorisieren menschliche Übersetzung und garantieren eine echte, nicht automatisierte Note",
+    "pricing": {
+      "subtitle": "EINFACHE PREISE",
+      "title": "Minimale Investition, Maximale Ergebnisse",
+      "description": "Bei Collabtranslation sind wir bestrebt, Sprachdienstleistungen zugänglich zu machen. Erleben Sie außergewöhnliche Übersetzungslösungen zu bemerkenswert wettbewerbsfähigen Preisen.",
+      "plans": [
+        {
+          "name": "Lite",
+          "features": ["01. Maschinelle Übersetzung", "02. Leichte Bearbeitung durch einen Fachmann"],
+          "price": "€ 0,04",
+          "unit": "pro Wort",
+          "description": "Es beinhaltet einen menschlichen Übersetzer, der die von einem maschinellen Übersetzungssystem erzeugte Ausgabe überprüft und verbessert. Der Prozess umfasst typischerweise das Korrigieren von Fehlern, das Verfeinern der Sprache und das Sicherstellen, dass die Übersetzung das gewünschte Qualitäts- und Genauigkeitsniveau erfüllt."
+        },
+        {
+          "name": "Professional",
+          "features": ["01. Muttersprachlicher Übersetzer", "02. Muttersprachlicher Korrektor"],
+          "price": "€ 0,12",
+          "unit": "pro Wort",
+          "description": "Professionelle menschliche Übersetzung beinhaltet einen qualifizierten Übersetzer und Korrektor, die Text von einer Sprache in eine andere konvertieren, während die beabsichtigte Bedeutung, der Ton und der Stil beibehalten werden. Darüber hinaus wird der Inhalt bei Bedarf auch lokalisiert, um die Zielgruppe zu erreichen."
+        },
+        {
+          "name": "Premium",
+          "features": ["01. Muttersprachlicher Übersetzer", "02. Muttersprachlicher Korrektor + QA"],
+          "price": "€ 0,16",
+          "unit": "pro Wort",
+          "description": "Premium-Übersetzungsdienste beschäftigen erfahrene und professionelle Übersetzer, die Experten für den Gegenstand des zu übersetzenden Inhalts sind, sowie rigorose Qualitätssicherungsprozesse, um hohe Standards zu erfüllen, die mehrere Runden von Überprüfung, Bearbeitung und Korrekturlesen umfassen."
+        }
+      ]
+    }
+  },
+  "services": {
+    "title": "Unsere Dienstleistungen",
+    "subtitle": "Komplette Übersetzungslösungen",
+    "services": [
+      {
+        "icon": "📄",
+        "title": "Dokumentenübersetzung",
+        "description": "Beglaubigte und technische Übersetzung offizieller Dokumente, Verträge und Zertifikate."
+      },
+      {
+        "icon": "🌐",
+        "title": "Website-Lokalisierung",
+        "description": "Anpassung von Webinhalten für verschiedene Sprachen und Kulturen unter Beibehaltung der Markenessenz."
+      },
+      {
+        "icon": "🎯",
+        "title": "Technische Übersetzung",
+        "description": "Spezialisten für Handbücher, technische Spezifikationen und Fachdokumentation."
+      },
+      {
+        "icon": "✍️",
+        "title": "Korrekturlesen und Lektorat",
+        "description": "Gründliche Überprüfung übersetzter Texte zur Gewährleistung von Qualität und Genauigkeit."
+      },
+      {
+        "icon": "🎤",
+        "title": "Dolmetschen",
+        "description": "Simultan- und Konsekutivdolmetschdienste für Veranstaltungen und Besprechungen."
+      },
+      {
+        "icon": "📱",
+        "title": "App-Lokalisierung",
+        "description": "Übersetzung und Anpassung mobiler Anwendungen für internationale Märkte."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Bereit, eine Transformation mit einem hochwertigen Übersetzungsservice zu starten?",
+    "description": "Es gab nie einen besseren Zeitpunkt als jetzt. Beginnen Sie noch heute mit der Übersetzung Ihrer Inhalte mit Collabtranslation.",
+    "button": "Kontaktieren Sie uns"
+  },
+  "about": {
+    "title": "Über Uns",
+    "description": "Wir sind ein auf qualitativ hochwertige Übersetzungen spezialisiertes Unternehmen mit über 10 Jahren Markterfahrung. Unser Team muttersprachlicher Übersetzer garantiert Präzision und Natürlichkeit in jedem Projekt.",
+    "features": [
+      "Zertifizierte muttersprachliche Übersetzer",
+      "Über 50 verfügbare Sprachen",
+      "Schnelle und pünktliche Lieferung",
+      "Vertraulichkeitsgarantie",
+      "24/7-Support"
+    ]
+  },
+  "contact": {
+    "title": "Kontaktieren Sie Uns",
+    "subtitle": "Fordern Sie ein unverbindliches Angebot an",
+    "form": {
+      "name": "Name",
+      "email": "E-Mail",
+      "message": "Nachricht",
+      "submit": "Nachricht senden"
+    }
+  },
+  "footer": {
+    "description": "Experten für professionelle Übersetzungen für Unternehmen und Privatpersonen.",
+    "quickLinks": "Schnellzugriff",
+    "contact": "Kontakt",
+    "rights": "Alle Rechte vorbehalten."
+  }
+}

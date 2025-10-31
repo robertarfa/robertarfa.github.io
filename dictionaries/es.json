@@ -10,6 +10,97 @@
     "subtitle": "Desbloquea tu potencial y redefine tus límites con nosotros. Nuestros traductores adaptan las traducciones para tu negocio, asegurando que tu voz cruce las fronteras.",
     "cta": "Solicita ahora"
   },
+  "edge": {
+    "title": "Descubre nuestra ventaja única",
+    "subtitle": "Es nuestro compromiso difundir tu voz. Entregamos traducciones y localizaciones efectivas y eficientes junto con traductores profesionales para ayudarte a alcanzar tus objetivos.",
+    "features": [
+      {
+        "title": "Traducciones Personalizadas",
+        "description": "Colaboramos con un equipo altamente experimentado de traductores profesionales para crear traducciones personalizadas que impulsan el crecimiento y el compromiso global de tu negocio."
+      },
+      {
+        "title": "Localizaciones de Vanguardia",
+        "description": "Con la ayuda de expertos nativos en localización, entregamos adaptaciones de vanguardia que se alinean precisamente con el idioma y los matices culturales de tu audiencia."
+      },
+      {
+        "title": "Servicio de Atención al Cliente Dedicado",
+        "description": "Ofrecemos un servicio de atención al cliente dedicado, disponible en todo momento, para ayudar a nuestros clientes a determinar el mejor enfoque."
+      }
+    ]
+  },
+  "languages": {
+    "trusted": "SOMOS CONFIABLES PARA EMPRESAS INTERNACIONALES CONSOLIDADAS",
+    "subtitle": "CONOCE NUESTROS SERVICIOS DE IDIOMAS",
+    "title": "Hablantes nativos, fluidos en ambos idiomas de origen y destino",
+    "description": "El proceso de traducción comienza con la recepción del documento, seguido de un análisis de contenido para especificar objetivos. Luego seleccionamos a los mejores profesionales para garantizar la entrega de traducciones de alta calidad.",
+    "services": [
+      {
+        "number": "01.",
+        "title": "Traducciones generales",
+        "description": "Traducir es más que transcribir el texto de un idioma a otro.",
+        "details": "Consultar más detalles→"
+      },
+      {
+        "number": "02.",
+        "title": "Revisión",
+        "description": "La revisión es el proceso de interferir en el texto, con el objetivo de mejorarlo.",
+        "details": "Consultar más detalles→"
+      },
+      {
+        "number": "03.",
+        "title": "Localizaciones",
+        "description": "Localizar contenido es el concepto más importante cuando quieres anunciar tus productos en el mundo.",
+        "details": "Consultar más detalles→"
+      },
+      {
+        "number": "04.",
+        "title": "Traducciones juradas",
+        "description": "Las traducciones juradas son traducciones especializadas que tienen validez legal, a menudo requeridas en escenarios que involucran documentos oficiales como contratos, certificados académicos e inmigración.",
+        "details": "Consultar más detalles→"
+      },
+      {
+        "number": "05.",
+        "title": "Transcripciones",
+        "description": "Transcribir o reescribir audio o video no es más que pasar lo que se habla en audio a su versión de texto. Es decir, transformar una grabación de sonido, audio en texto.",
+        "details": "Consultar más detalles→"
+      },
+      {
+        "number": "06.",
+        "title": "Subtitulado y subtitulado",
+        "description": "El subtitulado y subtitulado son componentes esenciales de los medios modernos, permitiendo a las audiencias interactuar con el contenido en varios idiomas y necesidades de accesibilidad.",
+        "details": "Consultar más detalles→"
+      }
+    ],
+    "humanTouch": "Priorizamos la traducción humana, asegurando un toque genuino, no automatizado",
+    "pricing": {
+      "subtitle": "PRECIOS SIMPLES",
+      "title": "Inversión mínima, Resultados máximos",
+      "description": "En Collabtranslation, estamos comprometidos a hacer que los servicios de idiomas sean accesibles. Experimente soluciones de traducción excepcionales a precios notablemente competitivos.",
+      "plans": [
+        {
+          "name": "Lite",
+          "features": ["01. Traducción automática", "02. Edición ligera por un profesional"],
+          "price": "€ 0,04",
+          "unit": "por palabra",
+          "description": "Implica que un traductor humano revise y mejore la salida generada por un sistema de traducción automática. El proceso generalmente incluye corregir errores, refinar el lenguaje y asegurar que la traducción cumpla con el nivel deseado de calidad y precisión."
+        },
+        {
+          "name": "Professional",
+          "features": ["01. Traductor nativo", "02. Revisor nativo"],
+          "price": "€ 0,12",
+          "unit": "por palabra",
+          "description": "La traducción humana profesional implica un traductor calificado y revisor convirtiendo texto de un idioma a otro mientras mantiene el significado, tono y estilo pretendidos. Además, cuando sea necesario, el contenido también será localizado para cumplir con el público objetivo."
+        },
+        {
+          "name": "Premium",
+          "features": ["01. Traductor nativo", "02. Revisor nativo + QA"],
+          "price": "€ 0,16",
+          "unit": "por palabra",
+          "description": "Los servicios de traducción premium emplean traductores experimentados y profesionales que son expertos en el tema del contenido que están traduciendo, además de procesos rigurosos de garantía de calidad para cumplir con altos estándares, involucrando múltiples rondas de revisión, edición y corrección."
+        }
+      ]
+    }
+  },
   "services": {
     "title": "Nuestros Servicios",
     "subtitle": "Soluciones completas en traducción",
@@ -45,6 +136,11 @@
         "description": "Traducción y adaptación de aplicaciones móviles para mercados internacionales."
       }
     ]
+  },
+  "cta": {
+    "title": "¿Listo para iniciar una transformación con un servicio de traducción de alta calidad?",
+    "description": "Nunca ha habido un mejor momento que ahora. Embárquese en la traducción de su contenido con Collabtranslation hoy.",
+    "button": "Contáctenos"
   },
   "about": {
     "title": "Sobre Nosotros",

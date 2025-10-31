@@ -16,7 +16,9 @@ interface NavigationProps {
 export default function Navigation({ lang, dictionary }: NavigationProps) {
   const navItems = [
     { href: `/${lang}`, label: dictionary.nav.home },
-    { href: `/${lang}#about`, label: dictionary.nav.about },
+    { href: `/${lang}/services`, label: dictionary.nav.services },
+    { href: `/${lang}/about`, label: dictionary.nav.about },
+    { href: `/${lang}#contact`, label: dictionary.nav.contact },
   ];
 
   return (

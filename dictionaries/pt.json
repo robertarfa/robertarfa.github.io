@@ -10,6 +10,97 @@
     "subtitle": "Desbloqueie seu potencial e redefina seus limites conosco. Nossos tradutores adaptam as traduções para o seu negócio, garantindo que sua voz cruze as fronteiras.",
     "cta": "Solicite agora"
   },
+  "edge": {
+    "title": "Descubra nossa vantagem única",
+    "subtitle": "É nosso compromisso espalhar sua voz. Entregamos traduções e localizações eficazes e eficientes combinadas com tradutores profissionais para ajudá-lo a alcançar seus objetivos.",
+    "features": [
+      {
+        "title": "Traduções Personalizadas",
+        "description": "Colaboramos com uma equipe altamente experiente de tradutores profissionais para criar traduções personalizadas que impulsionam o crescimento e o engajamento global do seu negócio."
+      },
+      {
+        "title": "Localizações de Ponta",
+        "description": "Com o auxílio de especialistas nativos em localização, entregamos adaptações de ponta que se alinham precisamente com a linguagem e nuances culturais do seu público."
+      },
+      {
+        "title": "Atendimento ao Cliente Dedicado",
+        "description": "Oferecemos um serviço de atendimento ao cliente dedicado, disponível em todos os momentos, para auxiliar nossos clientes a determinar a melhor abordagem."
+      }
+    ]
+  },
+  "languages": {
+    "trusted": "SOMOS CONFIÁVEIS POR EMPRESAS INTERNACIONAIS CONSOLIDADAS",
+    "subtitle": "CONHEÇA NOSSOS SERVIÇOS DE IDIOMAS",
+    "title": "Falantes nativos, fluentes em ambos os idiomas de origem e destino",
+    "description": "O processo de tradução começa com o recebimento do documento, seguido por uma análise de conteúdo para especificar objetivos. Em seguida, selecionamos os melhores profissionais para garantir a entrega de traduções de alta qualidade.",
+    "services": [
+      {
+        "number": "01.",
+        "title": "Traduções gerais",
+        "description": "Traduzir é mais do que transcrever o texto de um idioma para outro.",
+        "details": "Confira mais detalhes→"
+      },
+      {
+        "number": "02.",
+        "title": "Revisão",
+        "description": "Revisão é o processo de interferir no texto, visando sua melhoria.",
+        "details": "Confira mais detalhes→"
+      },
+      {
+        "number": "03.",
+        "title": "Localizações",
+        "description": "Localizar conteúdo é fundamental para divulgar seus produtos pelo mundo.",
+        "details": "Confira mais detalhes→"
+      },
+      {
+        "number": "04.",
+        "title": "Traduções juramentadas",
+        "description": "Traduções juramentadas têm validade legal, exigidas em cenários oficiais como contratos, certificados e imigração.",
+        "details": "Confira mais detalhes→"
+      },
+      {
+        "number": "05.",
+        "title": "Transcrições",
+        "description": "Transcrever áudio ou vídeo é transformar o que foi falado em texto, convertendo gravações em texto escrito.",
+        "details": "Confira mais detalhes→"
+      },
+      {
+        "number": "06.",
+        "title": "Legendagem & Captioning",
+        "description": "Legendagem e captioning são essenciais para engajar públicos diversos e atender necessidades de acessibilidade.",
+        "details": "Confira mais detalhes→"
+      }
+    ],
+    "humanTouch": "Priorizamos a tradução humana, garantindo um toque genuíno, não automatizado",
+    "pricing": {
+      "subtitle": "PREÇOS SIMPLES",
+      "title": "Investimento mínimo, Resultados máximos",
+      "description": "Na Collabtranslation, estamos comprometidos em tornar os serviços de idiomas acessíveis. Experimente soluções de tradução excepcionais a preços extremamente competitivos.",
+      "plans": [
+        {
+          "name": "Lite",
+          "features": ["01. Tradução automática", "02. Edição leve por um profissional"],
+          "price": "€ 0,04",
+          "unit": "por palavra",
+          "description": "Envolve um tradutor humano revisando e melhorando a saída gerada por um sistema de tradução automática. O processo geralmente inclui corrigir erros, refinar a linguagem e garantir que a tradução atenda ao nível desejado de qualidade e precisão."
+        },
+        {
+          "name": "Professional",
+          "features": ["01. Tradutor nativo", "02. Revisor nativo"],
+          "price": "€ 0,12",
+          "unit": "por palavra",
+          "description": "A tradução humana profissional envolve um tradutor qualificado e revisor convertendo texto de um idioma para outro, mantendo o significado, tom e estilo pretendidos. Além disso, quando necessário, o conteúdo também será localizado para atender ao público-alvo."
+        },
+        {
+          "name": "Premium",
+          "features": ["01. Tradutor nativo", "02. Revisor nativo + QA"],
+          "price": "€ 0,16",
+          "unit": "por palavra",
+          "description": "Os serviços de tradução premium empregam tradutores experientes e profissionais que são especialistas no assunto do conteúdo que estão traduzindo, além de processos rigorosos de garantia de qualidade para atender aos mais altos padrões, envolvendo várias rodadas de revisão, edição e revisão."
+        }
+      ]
+    }
+  },
   "services": {
     "title": "Nossos Serviços",
     "subtitle": "Soluções completas em tradução",
@@ -45,6 +136,11 @@
         "description": "Tradução e adaptação de aplicativos mobile para mercados internacionais."
       }
     ]
+  },
+  "cta": {
+    "title": "Pronto para iniciar uma transformação com um serviço de tradução de alta qualidade?",
+    "description": "Nunca houve um momento melhor do que agora. Embarque na tradução do seu conteúdo com a Collabtranslation hoje.",
+    "button": "Entre em contato"
   },
   "about": {
     "title": "Sobre Nós",

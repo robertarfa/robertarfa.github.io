@@ -1,0 +1,172 @@
+{
+  "nav": {
+    "home": "Home",
+    "services": "Servizi",
+    "about": "Chi siamo",
+    "contact": "Contatto"
+  },
+  "hero": {
+    "title": "Traduci oggi, stringi la mano domani",
+    "subtitle": "Sblocca il tuo potenziale e ridefinisci i tuoi limiti con noi. I nostri traduttori adattano le traduzioni per la tua attività, garantendo che la tua voce attraversi i confini.",
+    "cta": "Richiedi ora"
+  },
+  "edge": {
+    "title": "Scopri il nostro vantaggio unico",
+    "subtitle": "È il nostro impegno diffondere la tua voce. Forniamo traduzioni e localizzazioni efficaci ed efficienti abbinate a traduttori professionisti per aiutarti a raggiungere i tuoi obiettivi.",
+    "features": [
+      {
+        "title": "Traduzioni Personalizzate",
+        "description": "Collaboriamo con un team altamente esperto di traduttori professionisti per creare traduzioni personalizzate che guidano la crescita e il coinvolgimento globale della tua attività."
+      },
+      {
+        "title": "Localizzazioni All'avanguardia",
+        "description": "Con l'aiuto di esperti nativi in localizzazione, forniamo adattamenti all'avanguardia che si allineano precisamente con la lingua e le sfumature culturali del tuo pubblico."
+      },
+      {
+        "title": "Servizio Clienti Dedicato",
+        "description": "Offriamo un servizio clienti dedicato, disponibile in ogni momento, per aiutare i nostri clienti a determinare il miglior approccio."
+      }
+    ]
+  },
+  "languages": {
+    "trusted": "SIAMO AFFIDABILI DA AZIENDE INTERNAZIONALI CONSOLIDATE",
+    "subtitle": "CONOSCI I NOSTRI SERVIZI LINGUISTICI",
+    "title": "Madrelingua, fluenti sia nella lingua di partenza che in quella di arrivo",
+    "description": "Il processo di traduzione inizia con la ricezione del documento, seguito da un'analisi del contenuto per specificare gli obiettivi. Quindi selezioniamo i migliori professionisti per garantire la consegna di traduzioni di alta qualità.",
+    "services": [
+      {
+        "number": "01.",
+        "title": "Traduzioni generali",
+        "description": "Tradurre è molto più che trascrivere il testo da una lingua all'altra.",
+        "details": "Scopri maggiori dettagli→"
+      },
+      {
+        "number": "02.",
+        "title": "Revisione",
+        "description": "La revisione è il processo di intervento nel testo, mirando al suo miglioramento.",
+        "details": "Scopri maggiori dettagli→"
+      },
+      {
+        "number": "03.",
+        "title": "Localizzazioni",
+        "description": "Localizzare i contenuti è fondamentale per promuovere i tuoi prodotti nel mondo.",
+        "details": "Scopri maggiori dettagli→"
+      },
+      {
+        "number": "04.",
+        "title": "Traduzioni giurate",
+        "description": "Le traduzioni giurate hanno validità legale, richieste in scenari ufficiali come contratti, certificati e immigrazione.",
+        "details": "Scopri maggiori dettagli→"
+      },
+      {
+        "number": "05.",
+        "title": "Trascrizioni",
+        "description": "Trascrivere audio o video significa trasformare ciò che è stato detto in testo, convertendo registrazioni in testo scritto.",
+        "details": "Scopri maggiori dettagli→"
+      },
+      {
+        "number": "06.",
+        "title": "Sottotitolazione e Captioning",
+        "description": "Sottotitolazione e captioning sono essenziali per coinvolgere pubblici diversi e soddisfare le esigenze di accessibilità.",
+        "details": "Scopri maggiori dettagli→"
+      }
+    ],
+    "humanTouch": "Diamo priorità alla traduzione umana, garantendo un tocco genuino, non automatizzato",
+    "pricing": {
+      "subtitle": "PREZZI SEMPLICI",
+      "title": "Investimento minimo, Risultati massimi",
+      "description": "A Collabtranslation, ci impegniamo a rendere accessibili i servizi linguistici. Sperimenta soluzioni di traduzione eccezionali a tariffe estremamente competitive.",
+      "plans": [
+        {
+          "name": "Lite",
+          "features": ["01. Traduzione automatica", "02. Revisione leggera da un professionista"],
+          "price": "€ 0,04",
+          "unit": "per parola",
+          "description": "Coinvolge un traduttore umano che rivede e migliora l'output generato da un sistema di traduzione automatica. Il processo include tipicamente la correzione degli errori, il perfezionamento del linguaggio e la garanzia che la traduzione soddisfi il livello desiderato di qualità e precisione."
+        },
+        {
+          "name": "Professional",
+          "features": ["01. Traduttore madrelingua", "02. Revisore madrelingua"],
+          "price": "€ 0,12",
+          "unit": "per parola",
+          "description": "La traduzione umana professionale coinvolge un traduttore qualificato e un revisore che convertono il testo da una lingua all'altra mantenendo il significato, il tono e lo stile previsti. Inoltre, quando necessario, il contenuto verrà anche localizzato per soddisfare il pubblico di destinazione."
+        },
+        {
+          "name": "Premium",
+          "features": ["01. Traduttore madrelingua", "02. Revisore madrelingua + QA"],
+          "price": "€ 0,16",
+          "unit": "per parola",
+          "description": "I servizi di traduzione premium impiegano traduttori esperti e professionisti che sono esperti nella materia del contenuto che stanno traducendo, oltre a rigorosi processi di garanzia della qualità per soddisfare gli standard più elevati, coinvolgendo molteplici cicli di revisione, editing e correzione di bozze."
+        }
+      ]
+    }
+  },
+  "services": {
+    "title": "I Nostri Servizi",
+    "subtitle": "Soluzioni complete di traduzione",
+    "services": [
+      {
+        "icon": "📄",
+        "title": "Traduzione di Documenti",
+        "description": "Traduzione giurata e tecnica di documenti ufficiali, contratti e certificati."
+      },
+      {
+        "icon": "🌐",
+        "title": "Localizzazione di Siti Web",
+        "description": "Adattamento di contenuti web per diverse lingue e culture mantenendo l'essenza del brand."
+      },
+      {
+        "icon": "🎯",
+        "title": "Traduzione Tecnica",
+        "description": "Specialisti in manuali, specifiche tecniche e documentazione specializzata."
+      },
+      {
+        "icon": "✍️",
+        "title": "Revisione e Editing",
+        "description": "Revisione accurata di testi tradotti garantendo qualità e precisione."
+      },
+      {
+        "icon": "🎤",
+        "title": "Interpretariato",
+        "description": "Servizi di interpretariato simultaneo e consecutivo per eventi e riunioni."
+      },
+      {
+        "icon": "📱",
+        "title": "Localizzazione di App",
+        "description": "Traduzione e adattamento di applicazioni mobili per mercati internazionali."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto a dare il via a una trasformazione con un servizio di traduzione di alta qualità?",
+    "description": "Non c'è mai stato un momento migliore di adesso. Inizia a tradurre i tuoi contenuti con Collabtranslation oggi.",
+    "button": "Contattaci"
+  },
+  "about": {
+    "title": "Chi Siamo",
+    "description": "Siamo un'azienda specializzata in traduzioni di qualità, con oltre 10 anni di esperienza nel mercato. Il nostro team di traduttori madrelingua garantisce precisione e naturalezza in ogni progetto.",
+    "features": [
+      "Traduttori madrelingua certificati",
+      "Più di 50 lingue disponibili",
+      "Consegna rapida e puntuale",
+      "Garanzia di riservatezza",
+      "Supporto 24/7"
+    ]
+  },
+  "contact": {
+    "title": "Contattaci",
+    "subtitle": "Richiedi un preventivo senza impegno",
+    "form": {
+      "name": "Nome",
+      "email": "Email",
+      "message": "Messaggio",
+      "submit": "Invia Messaggio"
+    }
+  },
+  "footer": {
+    "description": "Esperti in traduzioni professionali per aziende e privati.",
+    "quickLinks": "Link Rapidi",
+    "contact": "Contatto",
+    "rights": "Tutti i diritti riservati."
+  }
+}
